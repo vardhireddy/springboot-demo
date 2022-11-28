@@ -37,7 +37,10 @@ steps:
       repository: $(DOCKER_REPOSITORY)
       command: build
       Dockerfile: Dockerfile
-      imageName: 'springboot-demo:$(Build.BuildNumber)'
+      tags: |
+        $(Build.BuildNumber)
+        latest
+        $(Build.BuildId)
   - task: ECRPushImage@1
     inputs:
       awsCredentials: 'kridjsss-aws'
