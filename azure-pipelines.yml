@@ -46,7 +46,7 @@ steps:
       awsCredentials: 'kridjsss-aws'
       regionName: 'us-east-2'
       imageSource: 'imagename'
-      sourceImageName: 'springboot-demo'
+      sourceImageName: $(DOCKER_REPOSITORY)
       sourceImageTag: '$(Build.BuildNumber)'
       repositoryName: 'springboot-demo'
       pushTag: '$(Build.BuildNumber)'
