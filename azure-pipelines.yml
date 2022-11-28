@@ -45,4 +45,4 @@ steps:
       regionName: 'us-east-2'
       imageSource: 'imagename'
       sourceImageName: 'springboot-demo'
-      repositoryName: 'springboot-demo$(Build.BuildId)'
+      repositoryName: 'springboot-demo'
