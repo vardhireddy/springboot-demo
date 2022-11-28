@@ -44,5 +44,5 @@ steps:
       awsCredentials: 'kridjsss-aws'
       regionName: 'us-east-2'
       imageSource: 'imagename'
-      sourceImageName: 'springboot-demo$(Build.BuildId)'
-      repositoryName: 'springboot-demo'
+      sourceImageName: 'springboot-demo'
+      repositoryName: 'springboot-demo$(Build.BuildId)'
