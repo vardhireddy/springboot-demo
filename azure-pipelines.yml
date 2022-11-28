@@ -48,7 +48,7 @@ steps:
       imageSource: 'imagename'
       sourceImageName: $(DOCKER_REPOSITORY)
       sourceImageTag: '$(Build.BuildNumber)'
-      repositoryName: 'springboot-demo'
+      repositoryName: 'springboot-demo1'
       pushTag: '$(Build.BuildNumber)'
       autoCreateRepository: true
       outputVariable: 'imageTagOutputVar'
